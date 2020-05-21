@@ -80,6 +80,7 @@ public class SampleAtmosphereApplication {
 	}
 
 	public static void main(String[] args) throws Exception {
+		System.out.println("Spring Boot Application Started...");
 		SpringApplication.run(SampleAtmosphereApplication.class, args);
 	}
 
